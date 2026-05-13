@@ -1,8 +1,20 @@
 {
   "name": "practicemultiplay",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://github.com/irfancode404/Practice#readme",
+  "bugs": {
+    "url": "https://github.com/irfancode404/Practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irfancode404/Practice.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,6 +26,7 @@
     "motion": "^12.38.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
+    "react-icons": "^5.6.0",
     "tailwindcss": "^4.2.4"
   },
   "devDependencies": {
